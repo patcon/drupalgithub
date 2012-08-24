@@ -5,6 +5,7 @@ defaults[projects][subdir] = contrib
 
 projects[connector][version] = 1.0-beta1
 projects[ctools][version] = 1.2
+projects[features][version] = 1.0
 projects[http_client][version] = 2.4
 projects[oauth][version] = 3.0
 projects[oauthconnector][version] = 1.0-beta1

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Github Integration feature.
+ */
+
+include_once 'github_integration.features.inc';

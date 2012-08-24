@@ -4,3 +4,8 @@ version = VERSION
 core = 7.x
 dependencies[] = block
 dependencies[] = dblog
+
+dependencies[] = oauthconnector_github
+
+; FEATURES
+dependencies[] = github_integration
