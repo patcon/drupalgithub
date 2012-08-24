@@ -5,6 +5,8 @@ core = 7.x
 dependencies[] = block
 dependencies[] = dblog
 
+dependencies[] = diff
+dependencies[] = features
 dependencies[] = oauthconnector_github
 
 ; FEATURES

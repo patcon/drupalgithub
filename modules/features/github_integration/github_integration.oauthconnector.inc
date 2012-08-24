@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * github_integration..inc
+ * github_integration.oauthconnector.inc
  */
 
 /**
@@ -12,6 +12,7 @@ function github_integration_default_oauthconnector_provider() {
 
   $provider = new stdClass();
   $provider->disabled = FALSE; /* Edit this to true to make a default provider disabled initially */
+  $provider->api_version = 1;
   $provider->name = 'github';
   $provider->title = 'GitHub';
   $provider->url = 'https://api.github.com';
@@ -20,7 +21,7 @@ function github_integration_default_oauthconnector_provider() {
     'signature method' => 'HMAC-SHA1',
     'authentication realm' => '',
     'request token endpoint' => '/oauth/request_token',
-    'authorization scope' => 'user,public_repo',
+    'authorization scope' => 'public_repo',
     'authorization endpoint' => 'https://github.com/login/oauth/authorize',
     'access token endpoint' => 'https://github.com/login/oauth/access_token',
   );
