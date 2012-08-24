@@ -1,0 +1,6 @@
+name = Drupal GitHub
+description = Attempt to Integrate Drupal with GitHub.
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = dblog
