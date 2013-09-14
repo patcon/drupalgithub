@@ -12,6 +12,7 @@ projects[oauth][version] = 3.0
 projects[oauthconnector][version] = 1.0-beta1
 ; Fixed ctools export of providers: http://drupal.org/node/1712262#comment-6391478
 projects[oauthconnector][patch][] = http://drupal.org/files/oauthconnector-fix-ctools-exportables_7.x-1.0-beta1_1712262-3.patch
+projects[oauthconnector][patch][] = https://drupal.org/files/1746386-11-hardcode-json-accept-header.patch
 
 projects[oauthconnector_github][type] = module
 projects[oauthconnector_github][download][type] = git
